@@ -94,4 +94,8 @@ if st.button("Predict"):
     st.success(f"Prediction: {label} ({pred})")
 
 st.subheader("Dataset Preview")
+<<<<<<< HEAD
 st.dataframe(df.head())
+=======
+st.dataframe(df.head())
+>>>>>>> 9020afef9655ece8c1f6852c914b1a933246cf69
