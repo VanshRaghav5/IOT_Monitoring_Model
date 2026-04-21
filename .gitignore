@@ -1,2 +1,23 @@
-.venv
-.csv
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environment / packaging
+env/
+venv/
+build/
+dist/
+*.egg-info/
+
+# Generated model artifacts
+model1.pkl
+
+# Streamlit
+.streamlit/
+
+# Common local files
+.DS_Store
+Thumbs.db
